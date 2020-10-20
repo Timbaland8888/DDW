@@ -4,7 +4,6 @@
 # date:2020-09-21
 # Arthor:Timbaland
 import time
-
 import requests
 import pysnooper
 from lxml import html
@@ -20,7 +19,7 @@ class DdwBooks():
     """
         获取当当网自营数据
     """
-    @pysnooper.snoop(f"{Date_Bug}.log")
+    @pysnooper.snoop(f"./logs/{Date_Bug}.log")
     def get_ddw_key(self,*args,**kwargs):
         input_key = input("请输入查询的商品：")
         # input_key = '9787533255879'
@@ -64,7 +63,7 @@ class DdwBooks():
                 book_inof_sql = f""" replace into book_info(id,src_imag,go_sort_href,href,update_date)
                      values(REPLACE(UUID(), '-', ''),'{src_imag}','{go_sort_href}','{href}',now())
                     """
-                # print(book_inof_sql)
+                print(book_inof_sql)
                 self.sql_cursor.query(book_inof_sql)
                 # time.sleep(1)
                 print('获取详情地址完成！！')
