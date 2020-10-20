@@ -3,7 +3,7 @@
 # * Created by Timbaland
 # * Date: 2020/10/20 0004
 # * Time: 下午 2:32
-# * Power: DATABASE
+# * Power: mysql5.6
 import time
 import pymysql
 from tools.console_cmd import *
