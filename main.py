@@ -1,6 +1,6 @@
 #!/usr/bin/evn python
 # -*- encoding:utf-8 -*-
-# function: get isbn detail
+# function: 主程序入口
 # date:2020-10-16
 # Arthor:Timbaland
 import codecs
