@@ -1,6 +1,6 @@
 #!/usr/bin/evn python
 # -*- encoding:utf-8 -*-
-# function:
+# function: 通过ISBN号去查找当当自营数据
 # date:2020-09-21
 # Arthor:Timbaland
 import time
