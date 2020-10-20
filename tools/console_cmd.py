@@ -1,3 +1,8 @@
+#!/usr/bin/evn python
+# -*- encoding:utf-8 -*-
+# function: 调试窗口样式
+# date:2020-09-21
+# Arthor:Timbaland
 import ctypes
 import sys
 
