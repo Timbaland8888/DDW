@@ -1,9 +1,8 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-# * Created by .
-# * Date: 2017/1/10 0004
+# * Created by Timbaland
+# * Date: 2020/10/20 0004
 # * Time: 下午 2:32
-# * Project: PYTHON STUDY
 # * Power: DATABASE
 import time
 import pymysql
